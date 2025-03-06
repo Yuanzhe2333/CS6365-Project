@@ -1,0 +1,256 @@
+/* === Global / Base === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  flex: 1; /* this ensures the main content grows and pushes the footer down */
+  padding: 1rem; /* optional padding for content spacing */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ensures the container fills the entire viewport height */
+}
+
+/* === Header & Nav === */
+header {
+  background: linear-gradient(135deg, #95d, #63a4ff);
+  color: white;
+  padding: 1rem;
+}
+
+.header-title {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.nav-bar {
+  margin-top: 0.5rem;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+/* === Footer === */
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* === Buttons === */
+button {
+  background-color: #63a4ff;
+  border: none;
+  padding: 0.6rem 1rem;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #5591e6;
+}
+
+/* ======================
+   PAGE-SPECIFIC STYLES
+   ====================== */
+
+/* === HOME PAGE STYLES === */
+.home-page {
+  /* Extra container for the home page if you want */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.home-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.home-page p {
+  max-width: 600px;
+  margin: 0.5rem auto;
+  line-height: 1.6;
+  color: #555;
+}
+
+.home-hero {
+  /* Optional: Hero-like area, you can add a background image or gradient */
+  width: 100%;
+  padding: 3rem;
+  background: linear-gradient(135deg, #63a4ff 0%, #85ffc7 100%);
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.home-hero h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.home-hero p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0.5rem auto;
+}
+
+/* === GROCERY DISCOUNTS PAGE STYLES === */
+.discounts-page {
+  padding: 2rem;
+}
+
+.discounts-page h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.discount-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* The discount-card base styling could be globally defined;
+   here’s an example of more advanced styling for discount-card */
+.discount-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.discount-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.discount-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.discount-card p {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+.discount-card button {
+  margin-top: 0.5rem;
+}
+
+/* === MEAL PLANNER PAGE STYLES === */
+.meal-planner-page {
+  padding: 2rem;
+}
+
+.meal-planner-page h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.meal-planner-intro {
+  margin-bottom: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Example styling for each selected item in the meal planner */
+.selected-item {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.selected-item:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.selected-item h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* === RECIPE FINDER PAGE STYLES === */
+.recipe-finder-page {
+  padding: 2rem;
+}
+
+.recipe-finder-page h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-intro {
+  margin-bottom: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Example: styling recipe cards */
+.recipe-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-card p {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+.recipe-card button {
+  margin-top: 0.5rem;
+}
