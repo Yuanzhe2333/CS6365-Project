@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import GroceryDiscounts from "./pages/GroceryDiscounts";
 import MealPlanner from "./pages/MealPlanner";
 import RecipeFinder from "./pages/RecipeFinder";
+import ChatPage from './pages/ChatPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/discounts" element={<GroceryDiscounts />} />
         <Route path="/meal-planner" element={<MealPlanner />} />
         <Route path="/recipes" element={<RecipeFinder />} />
+        <Route path="/ChatBot" element={<ChatPage />} />
       </Routes>
 
       <Footer />

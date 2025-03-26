@@ -1,5 +1,5 @@
 import React from "react";
-
+import ChatBot from '../assets/ChatBot.jsx';
 function Home() {
   return (
     <main className="home-page">
@@ -14,6 +14,9 @@ function Home() {
         Use the navigation above to explore discounted groceries, plan your
         weekly meals, or find exciting recipes.
       </p>
+     
+
+      
     </main>
   );
 }
