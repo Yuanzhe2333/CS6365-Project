@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 
 function GroceryDiscounts() {
-  // Sample data
   const discounts = [
     {
       id: 1,
@@ -24,26 +23,55 @@ function GroceryDiscounts() {
       store: "Grocery Villa",
       price: "$1.00/box",
     },
+    {
+      id: 4,
+      item: "Milk",
+      discount: "15% OFF",
+      store: "Local Market",
+      price: "$2.00/gallon",
+    },
   ];
+
+  const [selectedStore, setSelectedStore] = useState(null);
+
+  const stores = [...new Set(discounts.map(d => d.store))]; // Unique store list
+
+  const filteredDiscounts = selectedStore
+    ? discounts.filter(d => d.store === selectedStore)
+    : [];
 
   return (
     <main className="discounts-page">
-      <h2>Discounted Groceries</h2>
-      <div className="discount-list">
-        {discounts.map((discount) => (
-          <div key={discount.id} className="discount-card">
-            <h4>{discount.item}</h4>
-            <p>{discount.discount}</p>
-            <p>
-              <strong>Store:</strong> {discount.store}
-            </p>
-            <p>
-              <strong>Price:</strong> {discount.price}
-            </p>
-            <button>Add to Meal Plan</button>
-          </div>
+      <h2>Select a Store</h2>
+      <div className="store-buttons">
+        {stores.map((store, index) => (
+          <button
+            key={index}
+            className={`store-btn ${selectedStore === store ? "active" : ""}`}
+            onClick={() => setSelectedStore(store)}
+          >
+            {store}
+          </button>
         ))}
       </div>
+
+      {selectedStore && (
+        <>
+          <h3>Discounts at {selectedStore}</h3>
+          <div className="discount-list">
+            {filteredDiscounts.map(discount => (
+              <div key={discount.id} className="discount-card">
+                <h4>{discount.item}</h4>
+                <p>{discount.discount}</p>
+                <p>
+                  <strong>Price:</strong> {discount.price}
+                </p>
+                <button>Add to Meal Plan</button>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
     </main>
   );
 }
