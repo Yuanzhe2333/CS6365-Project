@@ -1,0 +1,55 @@
+/* GroceryDiscounts.css */
+.discounts-page {
+    padding: 2rem;
+  }
+  
+  .store-buttons {
+    margin-bottom: 1rem;
+  }
+  
+  .store-btn {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .store-btn.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .discount-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .discount-card {
+    flex: 1 1 250px;        /* Flexible card width */
+    max-width: 300px;       /* Optional: prevent cards from stretching too wide */
+    min-width: 200px;       /* Optional: ensures small screens still show 1–2 */
+    box-sizing: border-box;
+  
+    /* Styling */
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .discount-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 8px;
+  }
+  
