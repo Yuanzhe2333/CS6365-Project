@@ -1,44 +1,23 @@
 import React, { useState } from "react";
-
+import discountsData from "../data/publix-discounts.json";
+import "../assets/GroceryDiscounts.css"; // ✅ Import here
 function GroceryDiscounts() {
-  const discounts = [
-    {
-      id: 1,
-      item: "Apples",
-      discount: "25% OFF",
-      store: "Local Market",
-      price: "$1.50/lb",
-    },
-    {
-      id: 2,
-      item: "Chicken Breast",
-      discount: "10% OFF",
-      store: "Fresh Foods",
-      price: "$4.00/lb",
-    },
-    {
-      id: 3,
-      item: "Pasta",
-      discount: "50% OFF",
-      store: "Grocery Villa",
-      price: "$1.00/box",
-    },
-    {
-      id: 4,
-      item: "Milk",
-      discount: "15% OFF",
-      store: "Local Market",
-      price: "$2.00/gallon",
-    },
-  ];
-
   const [selectedStore, setSelectedStore] = useState(null);
+  const discounts = discountsData;
 
-  const stores = [...new Set(discounts.map(d => d.store))]; // Unique store list
+  // Debug: log the raw loaded JSON
+  console.log("✅ Loaded discount data:", discounts);
 
+  // Collect unique store names
+  const stores = [...new Set(discounts.map(d => d.store).filter(Boolean))];
+
+  // Filtered discounts based on selected store
   const filteredDiscounts = selectedStore
     ? discounts.filter(d => d.store === selectedStore)
-    : [];
+    : discounts; // <- show all by default for debugging
+
+  // Debug: log filtered results
+  console.log("🎯 Filtered discounts:", filteredDiscounts);
 
   return (
     <main className="discounts-page">
@@ -53,24 +32,38 @@ function GroceryDiscounts() {
             {store}
           </button>
         ))}
+        <button
+          className={`store-btn ${selectedStore === null ? "active" : ""}`}
+          onClick={() => setSelectedStore(null)}
+        >
+          Show All
+        </button>
       </div>
 
-      {selectedStore && (
-        <>
-          <h3>Discounts at {selectedStore}</h3>
-          <div className="discount-list">
-            {filteredDiscounts.map(discount => (
-              <div key={discount.id} className="discount-card">
-                <h4>{discount.item}</h4>
-                <p>{discount.discount}</p>
-                <p>
-                  <strong>Price:</strong> {discount.price}
-                </p>
-                <button>Add to Meal Plan</button>
-              </div>
-            ))}
-          </div>
-        </>
+      <h3>
+        {selectedStore ? `Discounts at ${selectedStore}` : "All Available Discounts"}
+      </h3>
+
+      {filteredDiscounts.length === 0 ? (
+        <p>No discounts found for this store.</p>
+      ) : (
+        <div className="discount-list">
+          {filteredDiscounts.map((discount, index) => (
+            <div key={index} className="discount-card">
+              <h4>{discount.item}</h4>
+              <p>{discount.discount}</p>
+              <p><strong>Save:</strong> {discount.save_info || discount.price || "N/A"}</p>
+              {discount.image_url && (
+                <img
+                  src={discount.image_url}
+                  alt={discount.item}
+                  style={{ width: "100px", height: "auto", marginTop: "8px" }}
+                />
+              )}
+              <button>Add to Meal Plan</button>
+            </div>
+          ))}
+        </div>
       )}
     </main>
   );
