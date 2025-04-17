@@ -23,6 +23,12 @@ function GroceryDiscounts() {
     <main className="discounts-page">
       <h2>Select a Store</h2>
       <div className="store-buttons">
+        <button
+            className={`store-btn ${selectedStore === null ? "active" : ""}`}
+            onClick={() => setSelectedStore(null)}
+          >
+            Show All
+        </button>
         {stores.map((store, index) => (
           <button
             key={index}
@@ -32,12 +38,7 @@ function GroceryDiscounts() {
             {store}
           </button>
         ))}
-        <button
-          className={`store-btn ${selectedStore === null ? "active" : ""}`}
-          onClick={() => setSelectedStore(null)}
-        >
-          Show All
-        </button>
+        
       </div>
 
       <h3>

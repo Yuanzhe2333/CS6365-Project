@@ -12,14 +12,29 @@ app.use(cors());
 app.use(express.json());
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+import fs from 'fs';
+import path from 'path';
 
+const saleDataPath = path.resolve('./src/data/publix-discounts.json');
+const saleData = JSON.parse(fs.readFileSync(saleDataPath, 'utf-8'));
 app.post('/api/chat', async (req, res) => {
   const { prompt } = req.body;
+
+  const systemMessage = {
+    role: 'system',
+    content:
+      `You are a smart kitchen assistant. Based on the following grocery sales data from Publix:\n\n` +
+      `${JSON.stringify(saleData)}\n\n` +
+      `Recommend a recipe that uses discounted ingredients. Also return the store name ("Publix") and explain why the recipe and store are a good match.`,
+  };
 
   try {
     const completion = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
-      messages: [{ role: 'user', content: prompt }, { role: 'developer',content: "" }],
+      messages: [
+        systemMessage,
+        { role: 'user', content: prompt },
+      ],
     });
 
     const reply = completion.choices[0].message.content;
