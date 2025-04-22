@@ -11,14 +11,14 @@
     "discount": "$15.99 Each",
     "save_info": "save up to $1.00",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai3_Publix_Signature_Bouquet.jpg",
-    "store": "Publix"
+    "store": "Trader Joe"
   },
   {
     "item": "Publix Deli Medium Deviled Egg Platter",
     "discount": "$26.99",
     "save_info": "save up to $3.00",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_01_Feature_04_97187_254014.jpg",
-    "store": "Publix"
+    "store": "Trader Joe"
   },
   {
     "item": "Publix Bakery Dinner Rolls",
@@ -32,7 +32,7 @@
     "discount": "$5.99",
     "save_info": "save up to $1.30",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_10_Feature_03_245051_258064.jpg",
-    "store": "Publix"
+    "store": "Trader Joe"
   },
   {
     "item": "Publix Bakery Apple Pie",
@@ -46,7 +46,7 @@
     "discount": "$5.99",
     "save_info": "save up to $0.80",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_10_Feature_04_95650_258114.jpg",
-    "store": "Publix"
+    "store": "Trader Joe"
   },
   {
     "item": "Carvel Sheet Cake",
@@ -67,7 +67,7 @@
     "discount": "$2.99",
     "save_info": "save up to $1.00",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_10_Feature_06_95066_258214.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "Publix Bakery Easter Chocolate Chip Cookie",
@@ -81,7 +81,7 @@
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $7.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_11_Feature_04_318855_258714.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "King's Hawaiian Rolls",
@@ -95,31 +95,31 @@
     "discount": "$15.99",
     "save_info": "save up to $1.00",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_11_Feature_08_15780_258914.jpg",
-    "store": "Publix"
+    "store": "Trader Joe"
   },
   {
     "item": "Publix Deli Catfish Meal",
     "discount": "$6.99 each",
     "save_info": "save up to $1.00",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_11_Feature_06_98964_258814.jpg",
-    "store": "Publix"
+    "store": "Trader Joe"
   },
   {
     "item": "Stacy's Pita Chips",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $5.19",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_11_Feature_012_277148_UL_258465_PackageShot.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
-    "item": "Boar's Head® Turkey Whole Sub",
+    "item": "Boar's Head\u00ae Turkey Whole Sub",
     "discount": "$8.99 each",
     "save_info": "save up to $2.00",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_11_Feature_07_93924_258864.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
-    "item": "Boar's Head® Sweet Slice Boneless Ham Dinner",
+    "item": "Boar's Head\u00ae Sweet Slice Boneless Ham Dinner",
     "discount": "$79.99 each",
     "save_info": "surprisingly low price",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_11_Feature_021_99493_258564_PackageShot.jpg",
@@ -130,21 +130,21 @@
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $5.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_11_Feature_03_72902_258664.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "Publix Deli Southern Cobb Salad",
     "discount": "$7.49",
     "save_info": "save up to $1.00",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_11_Feature_05_98864_258764.jpg",
-    "store": "Publix"
+    "store": "Trader Joe"
   },
   {
     "item": "Sabra Hummus",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $5.49",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_11_Feature_011_153752_UL_258365_PackageShot.jpg",
-    "store": "Publix"
+    "store": "Trader Joe"
   },
   {
     "item": "Gorton's Fish Fillets or Sticks",
@@ -158,17 +158,17 @@
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $5.19",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai2_Coles_Bread.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
-    "item": "Häagen-Dazs Ice Cream",
+    "item": "H\u00e4agen-Dazs Ice Cream",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $6.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai2_Haagen_Dazs_Ice_Cream.jpg",
     "store": "Publix"
   },
   {
-    "item": "Stouffer's or Lean Cuisine Entrées",
+    "item": "Stouffer's or Lean Cuisine Entr\u00e9es",
     "discount": "3 for $10.00",
     "save_info": "surprisingly low price",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai2_Stouffer_s_or_Lean_Cuisine_Entrees.jpg",
@@ -179,42 +179,42 @@
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $8.79",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai2_Land_O_Lakes_Sweet_Cream_Butter.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "Cabot Cheese Bar",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $4.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_13_Feature_03_2236_259864.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "Borden Cheese Singles",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $4.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_13_Feature_04_71543_259964.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "Sargento Shredded Cheese",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $4.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai2_Sargento_Shredded_Cheese.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "Activia Dailies Probiotic Dairy Drink",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $6.39",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_13_Feature_06_977949_260164.jpg",
-    "store": "Publix"
+    "store": "Whole Foods"
   },
   {
     "item": "Chobani Greek Yogurt",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $6.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_13_Feature_05_273072_260064.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "Swanson Broth",
@@ -228,21 +228,21 @@
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $25.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_14_Feature_04_323401_261114.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Hellmann's Mayonnaise",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $8.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai2_Hellmann_s_Mayonnaise.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Campbell's Soup",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $1.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_14_Feature_012_124083_260814.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Folgers Ground Coffee",
@@ -256,21 +256,21 @@
     "discount": "5 for $5.00",
     "save_info": "save up to $2.95 on 5",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai2_Del_Monte_Vegetables.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "Pure Wesson Oil",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $5.39",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_14_Feature_03_294773_261014.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Fisher Chef's Naturals Baking Nuts",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $9.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai2_Fisher_Chefs_Naturals_Baking_Nuts.jpg",
-    "store": "Publix"
+    "store": "Whole Foods"
   },
   {
     "item": "Mueller's Pasta",
@@ -298,14 +298,14 @@
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $9.89",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai2_General_Mills_Cheerios_Cereal.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Mott's Juice",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $4.79",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_15_Feature_04_12113_262158.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "Thomas' English Muffins",
@@ -340,35 +340,35 @@
     "discount": "Buy 2 Get 1 FREE",
     "save_info": "save up to $3.99 on 3",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai2_On_The_Border_Tortilla_Chip.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "Deer Park Natural Spring Water",
     "discount": "Buy 2 Get 1 FREE",
     "save_info": "save up to $5.99 on 3",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_16_Feature_03_13986_263146.jpg",
-    "store": "Publix"
+    "store": "Whole Foods"
   },
   {
     "item": "Nabisco Ritz Crackers",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $6.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_16_Feature_04_304781_263196.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Kellogg's Town House Crackers",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $7.55",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai2_Kelloggs_Town_House_Crackers.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Pepperidge Farm Goldfish Snack Crackers",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $2.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai3_Pepperidge_Farm_Goldfish_Snack_Crackers.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "10-Pack Pepsi Products",
@@ -382,7 +382,7 @@
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $4.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_17_Feature_011_825010_263740.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "Kingsford Charcoal Briquets",
@@ -396,7 +396,7 @@
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $5.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_18_Feature_03_51369_264743.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Chinet Classic White Plates",
@@ -410,14 +410,14 @@
     "discount": "$3.00 Off",
     "save_info": "save $3.00",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai3_Cascade_Dishwasher_Detergent.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Bounty Paper Towels",
     "discount": "$11.79",
     "save_info": "save up to $3.20",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_19_Feature_03_228405_265978.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Charmin Bathroom Tissue",
@@ -431,21 +431,21 @@
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $7.49",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_19_Feature_02_134567_265878.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Sun Bum or Baby Bum Sun Care Products",
     "discount": "$3.00 Off",
     "save_info": "save $3.00",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_19_Feature_06_262152_266228.jpg",
-    "store": "Publix"
+    "store": "Whole Foods"
   },
   {
     "item": "Tide or Tide Pods Laundry Detergent",
     "discount": "$12.99",
     "save_info": "save up to $3.00",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Page_19_Feature_04_126491_266078.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Streit's Cake Mix",
@@ -459,7 +459,7 @@
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $3.49",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_ai3_Kraft_Philadelphia_Cream_Cheese.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "M&M's Chocolate Candies",
@@ -487,20 +487,20 @@
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $2.99",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Flex_Area_09-1_Feature_05_303480_253264.jpg",
-    "store": "Publix"
+    "store": "Walmart"
   },
   {
     "item": "Junior's Cheesecake",
     "discount": "buy 1 get 1 free",
     "save_info": "save up to $14.39",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Flex_Area_07-1_Feature_03_284407_252909.jpg",
-    "store": "Publix"
+    "store": "Kroger"
   },
   {
     "item": "Assorted Tulips",
     "discount": "$6.99",
     "save_info": "save up to $1.00",
     "image_url": "https://akimages.shoplocal.com/dyn_li/235.0.90.0/Retailers/Publix/250410_Flex_Area_06-1_Feature_03_82283_252659.jpg",
-    "store": "Publix"
+    "store": "Trader Joe"
   }
 ]
