@@ -83,3 +83,25 @@ The **Healthy Meal Planning App** integrates AI-driven meal planning with grocer
 
 Stay tuned for updates and contributions! 🎯
 
+## ▶️ How to Run the Demo
+
+To try out the Healthy Meal Planning App locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/Yuanzhe2333/CS6365-Project.git
+
+# Navigate to the project directory
+cd CS6365-Project
+
+# Enter the frontend folder
+cd frontend
+
+# Install the required dependencies
+npm install
+
+# Start the backend server
+node server.js
+
+# In a separate terminal, run the frontend development server
+npm run dev
